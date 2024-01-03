@@ -10,8 +10,8 @@ The simulation model has been validated by the field observation and experimenta
 | Feature   | Unit   | Description | 
 |---------- |------- |-------------|
 |Clonesize  | m^2     | The average blueberry clone size in the field |
-| Honeybee  | bee/m^2/min| Honey bee density in the field|
-| Bumbles   | bees/m^2/min | Bubmble bee density in the field|
+| Honeybee  | bee/m^_{2}/min| Honey bee density in the field|
+| Bumbles   | bees/m^_{2}/min | Bubmble bee density in the field|
 | Andrean   | bee/m^2/min | Andrena bee density in the field|
 | Osmia     | bee/m^2/min | Osmia bee density in the field |
 | MaxOfUpperTRange | &deg;C | The highest record of the upper band daily air temperature during the bloom season |
