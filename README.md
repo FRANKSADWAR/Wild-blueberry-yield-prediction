@@ -23,9 +23,9 @@ The simulation model has been validated by the field observation and experimenta
 | AverageOfLowerTRange | $&deg;C$ | The average of the lower band daily air temperature |
 | RainingDays | $Day$ | The total number of days during the bloom season, each of which has precipitaion larger than zero|
 | AverageRainingDays | $Day$ | The average of raining days of the entire bloom season|
-| Fruitmass| $Kg$he weight of the fruits from the field** |
+| Fruitmass| $Kg$ | **The weight of the fruits from the field** |
 | Fruitset| $Nos$ | **the number of fruits per set**| 
-| Yield | $Kg$ | **The yeild from the field** | 
+| Yield | $Kg$ | **The yield from the field** | 
 
 
 ## Dataset info and description
