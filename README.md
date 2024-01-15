@@ -29,6 +29,8 @@ The simulation model has been validated by the field observation and experimenta
 
 
 ## Dataset info and description
+The dataset contains 13 input features and one target variable, named yield, which represents the yield in kg of a field.
+
 
 ## Train data distribution
 
