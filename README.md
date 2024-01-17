@@ -31,7 +31,16 @@ The simulation model has been validated by the field observation and experimenta
 ## Dataset info and description
 The dataset contains 13 input features and one target variable, named yield, which represents the yield in kg of a field.
 
+The target variable has a normal distribution, hence there was no need to proceed with a Box-Cox transformation on the variable, as shown in the figures below: 
+
+![Data distribution](images/distribution_of_target_variable.png)    ![Probability plot](images/probability_plot.png)
+
+Using a simple correlation matrix, its clear that the target variable `yield` has a high correlation with the features $Fruitmass$, $Fruitset$ and $Seeds$.
+
+This means that with three features we can already predict the yield, but would be highly biased towards these features, and we would need to eliminate the features before proceeding with model predictions later.
+ 
 
 ## Train data distribution
+
 
 ## EDA (EXploratory Data Analysis)
