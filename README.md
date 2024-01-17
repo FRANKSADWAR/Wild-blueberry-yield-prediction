@@ -35,7 +35,13 @@ The target variable has a normal distribution, hence there was no need to procee
 
 ![Data distribution](images/distribution_of_target_variable.png)    ![Probability plot](images/probability_plot.png)
 
+Drilling further down to these three variables, it is okay to assume that they are derivatives of the target variable. For example: 
+$Yield$ = $f(fruit_mass, fruit_set, seeds)$
+
+The regression plot below illustrates this further: ![Regression plot](images/regression_plots.png)
+
 Using a correlation matrix, its clear that the target variable `yield` has a high correlation with the features $Fruitmass$, $Fruitset$ and $Seeds$.
+![Correlation matrix](images/correlation_matrix.png)
 
 This means that with three features we can already predict the yield, but would be highly biased towards these features, and we would need to eliminate the features before proceeding with model predictions later.
  
